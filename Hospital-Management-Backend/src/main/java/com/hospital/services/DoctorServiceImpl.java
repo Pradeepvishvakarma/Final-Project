@@ -1,10 +1,11 @@
 package com.hospital.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.hospital.models.Doctor;
 import com.hospital.repositories.DoctorRepository;
-
+@Service
 public class DoctorServiceImpl implements DoctorService {
 	@Autowired
 	private DoctorRepository doctorRepository;

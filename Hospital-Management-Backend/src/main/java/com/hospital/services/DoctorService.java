@@ -1,7 +1,9 @@
 package com.hospital.services;
 
-import com.hospital.models.Doctor;
+import org.springframework.stereotype.Service;
 
+import com.hospital.models.Doctor;
+@Service
 public interface DoctorService {
 	Doctor addDoctor(Doctor doctor, long id);
 
